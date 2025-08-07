@@ -1,0 +1,109 @@
+{
+  "Variable Declaration (punya)": {
+    "prefix": "punya",
+    "body": [
+      "punya ${1:nama} = ${2:nilai};"
+    ],
+    "description": "Deklarasi konstanta (const)"
+  },
+  "Variable Declaration (anu)": {
+    "prefix": "anu",
+    "body": [
+      "anu ${1:nama} = ${2:nilai};"
+    ],
+    "description": "Deklarasi variabel (let)"
+  },
+  "Print Statement": {
+    "prefix": "nongol",
+    "body": [
+      "nongol ${1:\"pesan\"};"
+    ],
+    "description": "Tampilkan output (console.log)"
+  },
+  "If Statement": {
+    "prefix": "kalo",
+    "body": [
+      "kalo (${1:kondisi}) {",
+      "\t${2:// kode}",
+      "}"
+    ],
+    "description": "Kondisi if"
+  },
+  "If-Else Statement": {
+    "prefix": "kaloelse",
+    "body": [
+      "kalo (${1:kondisi}) {",
+      "\t${2:// kode if}",
+      "} kalo_kaga {",
+      "\t${3:// kode else}",
+      "}"
+    ],
+    "description": "Kondisi if-else"
+  },
+  "If-ElseIf-Else Statement": {
+    "prefix": "kaloyakali",
+    "body": [
+      "kalo (${1:kondisi1}) {",
+      "\t${2:// kode if}",
+      "} yakali (${3:kondisi2}) {",
+      "\t${4:// kode else if}",
+      "} kalo_kaga {",
+      "\t${5:// kode else}",
+      "}"
+    ],
+    "description": "Kondisi if-else if-else"
+  },
+  "For Loop": {
+    "prefix": "ulangin",
+    "body": [
+      "ulangin ${1:i} dari ${2:0} ampe ${3:10} {",
+      "\t${4:// kode loop}",
+      "}"
+    ],
+    "description": "Loop for"
+  },
+  "While Loop": {
+    "prefix": "pokonya",
+    "body": [
+      "pokonya (${1:kondisi}) {",
+      "\t${2:// kode loop}",
+      "}"
+    ],
+    "description": "Loop while"
+  },
+  "Function Declaration": {
+    "prefix": "guna",
+    "body": [
+      "guna ${1:namaFungsi}(${2:parameter}) {",
+      "\t${3:// kode fungsi}",
+      "}"
+    ],
+    "description": "Deklarasi fungsi"
+  },
+  "Function with Return": {
+    "prefix": "gunabalik",
+    "body": [
+      "guna ${1:namaFungsi}(${2:parameter}) {",
+      "\t${3:// kode fungsi}",
+      "\tbalik ${4:nilai};",
+      "}"
+    ],
+    "description": "Fungsi dengan return"
+  },
+  "Basic BekaScript Template": {
+    "prefix": "bkstemplate",
+    "body": [
+      "// BekaScript - Bahasa Pemrograman Betawi-Bekasi",
+      "",
+      "punya nama = \"${1:Nama Anda}\";",
+      "nongol \"Halo dari BekaScript, \" + nama + \"!\";",
+      "",
+      "guna ${2:fungsiUtama}() {",
+      "\t${3:// Kode program utama di sini}",
+      "}",
+      "",
+      "${2:fungsiUtama}();"
+    ],
+    "description": "Template dasar BekaScript"
+  }
+}

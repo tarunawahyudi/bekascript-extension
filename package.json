@@ -1,0 +1,85 @@
+{
+  "name": "bekascript",
+  "displayName": "bekascript",
+  "description": "Syntax highlighting & language support for BekaScript",
+  "version": "0.0.1",
+  "publisher": "bekascript",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Snippets",
+    "Themes"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "keywords": [
+    "bekascript",
+    "betawi",
+    "bekasi",
+    "programming",
+    "indonesia"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "bekascript",
+        "aliases": [
+          "BekaScript",
+          "bekascript"
+        ],
+        "extensions": [
+          ".bks"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "bekascript",
+        "scopeName": "source.bekascript",
+        "path": "./syntaxes/bekascript.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "bekascript",
+        "path": "./snippets/bekascript.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "bekascript.run",
+        "title": "Run BekaScript",
+        "category": "BekaScript"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "bekascript.run",
+        "key": "f5",
+        "when": "editorTextFocus && resourceExtname == .bks"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.74.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "@typescript-eslint/eslint-plugin": "^8.39.0",
+    "@typescript-eslint/parser": "^8.39.0",
+    "eslint": "^9.32.0",
+    "typescript": "^5.9.2",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
