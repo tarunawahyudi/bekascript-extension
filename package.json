@@ -4,6 +4,10 @@
   "description": "Syntax highlighting & language support for BekaScript",
   "version": "0.0.1",
   "publisher": "bekascript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tarunawahyudi/bekascript-extension"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },
