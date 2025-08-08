@@ -1,32 +1,44 @@
 # Bekascript — VS Code Extension
 
-![Bekascript Logo](icon.png)
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/bekascript.bekascript?color=007acc&label=VS%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=bekascript.bekascript)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/bekascript.bekascript?color=007acc)](https://marketplace.visualstudio.com/items?itemName=bekascript.bekascript)
+[![Rating](https://img.shields.io/visual-studio-marketplace/stars/bekascript.bekascript?color=007acc)](https://marketplace.visualstudio.com/items?itemName=bekascript.bekascript)
+[![License: MIT](https://img.shields.io/badge/license-MIT-007acc)](./LICENSE)
 
-**Bekascript** is a Visual Studio Code extension designed to enhance your coding experience with custom snippets, syntax highlighting, and tools tailored for developers from Bekasi—or anyone who loves clean, fast, and productive coding.
 
-## 🚀 Features
+**Bekascript** is a Visual Studio Code extension that enhances your development workflow with syntax highlighting, custom snippets, and handy commands—perfect for developers from Bekasi or anyone who enjoys clean and efficient coding.
 
-- ✨ Syntax highlighting for `.bks` and custom file types
-- ⚡ Custom code snippets to speed up your workflow
-- 🛠️ Handy commands to automate repetitive tasks
-- 📁 File templates for common project structures
-- 🎨 Light and dark theme support
+---
 
-## 🖥️ Supported Languages
+## Features
+
+- Syntax highlighting for `.bks` and custom file types
+- Custom code snippets to boost productivity
+- Built-in commands to automate repetitive tasks
+- File templates for standard project setups
+- Light and dark theme support
+
+---
+
+## Supported Languages
 
 - JavaScript / TypeScript
 - HTML / CSS
 - Node.js
-- And more (customizable via settings)
+- Other extensions via settings configuration
 
-## 📦 Installation
+---
+
+## Installation
+
+### From VS Code Marketplace
 
 1. Open **Visual Studio Code**
-2. Go to **Extensions** panel (Ctrl+Shift+X)
+2. Navigate to the **Extensions** view (Ctrl+Shift+X)
 3. Search for **Bekascript**
 4. Click **Install**
 
-Or install via CLI:
+### Using CLI
 
 ```bash
-code --install-extension bekascript
+code --install-extension bekascript.bekascript
