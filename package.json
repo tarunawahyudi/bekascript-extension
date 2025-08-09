@@ -2,7 +2,7 @@
   "name": "bekascript",
   "displayName": "bekascript",
   "description": "Syntax highlighting & language support for BekaScript",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "publisher": "tarunawahyudi",
   "repository": {
     "type": "git",
