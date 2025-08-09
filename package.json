@@ -66,6 +66,13 @@
         "key": "f5",
         "when": "editorTextFocus && resourceExtname == .bks"
       }
+    ],
+    "iconThemes": [
+      {
+        "id": "bekascript-icons",
+        "label": "BekaScript Icons",
+        "path": "./file-icons.json"
+      }
     ]
   },
   "scripts": {
